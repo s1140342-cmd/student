@@ -1,15 +1,15 @@
 #include <iostream>
 
-int main()
+int main() 
 {
-    std a = 5 + 3;
-    std b = 5 - 3;
-    std c = 5 * 3;
-    std d = 5 / 3;
-    double e = 5 / 3.0;
-    int f = 5 % 3;
-
-    stu::cout << a << " "<< b << " "<< c << " "<< d << " "<< e << " "<< f << " ";
-    
+    std::cout << "請輸入年齡"；
+    int age；
+    std::cin >> age；
+    if (age >= 18) {
+        std::cout << "你可以觀看pxxxxhub 網站 "；
+    }
+    if (age < 18) {
+        std::cout << "你還是好好讀書吧"；
+    }
     return 0;
 }
